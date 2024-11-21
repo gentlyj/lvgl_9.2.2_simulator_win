@@ -64,6 +64,9 @@
 		<Unit filename="lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="lvgl/demos/benchmark/assets/img_benchmark_avatar.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="lvgl/demos/benchmark/assets/lv_font_benchmark_montserrat_12_compr_az.c.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -686,9 +689,7 @@
 		<Unit filename="lvgl/examples/others/observer/lv_example_observer_6.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="lvgl/examples/others/observer/lv_example_observer_7.c">
-			<Option compilerVar="CC" />
-		</Unit>
+
 		<Unit filename="lvgl/examples/others/snapshot/lv_example_snapshot.h" />
 		<Unit filename="lvgl/examples/others/snapshot/lv_example_snapshot_1.c">
 			<Option compilerVar="CC" />
@@ -1139,6 +1140,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/src/draw/lv_image_decoder.h" />
+		<Unit filename="lvgl/src/misc/cache/lv_image_header_cache.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/misc/cache/lv_image_header_cache.h" />
 		<Unit filename="lvgl/src/draw/lv_image_dsc.h" />
 		<Unit filename="lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c">
 			<Option compilerVar="CC" />
@@ -1256,6 +1261,18 @@
 		<Unit filename="lvgl/src/draw/sw/blend/arm2d/lv_blend_arm2d.h" />
 		<Unit filename="lvgl/src/draw/sw/blend/helium/lv_blend_helium.h" />
 		<Unit filename="lvgl/src/draw/sw/blend/lv_draw_sw_blend.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_i1.h" />
+		<Unit filename="lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_i1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_al88.h" />
+		<Unit filename="lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_al88.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_l8.h" />
+		<Unit filename="lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_l8.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/src/draw/sw/blend/lv_draw_sw_blend.h" />
@@ -1715,8 +1732,8 @@
 		<Unit filename="lvgl/src/libs/thorvg/thorvg_capi.h" />
 		<Unit filename="lvgl/src/libs/thorvg/tvgAnimation.cpp" />
 		<Unit filename="lvgl/src/libs/thorvg/tvgArray.h" />
-		<Unit filename="lvgl/src/libs/thorvg/tvgBezier.cpp" />
-		<Unit filename="lvgl/src/libs/thorvg/tvgBezier.h" />
+		<!-- <Unit filename="lvgl/src/libs/thorvg/tvgBezier.cpp" /> -->
+		<!-- <Unit filename="lvgl/src/libs/thorvg/tvgBezier.h" /> -->
 		<Unit filename="lvgl/src/libs/thorvg/tvgCanvas.cpp" />
 		<Unit filename="lvgl/src/libs/thorvg/tvgCanvas.h" />
 		<Unit filename="lvgl/src/libs/thorvg/tvgCapi.cpp" />
@@ -1805,10 +1822,10 @@
 		<Unit filename="lvgl/src/lv_init.h" />
 		<Unit filename="lvgl/src/lvgl.h" />
 		<Unit filename="lvgl/src/lvgl_private.h" />
-		<Unit filename="lvgl/src/misc/cache/_lv_cache_lru_rb.c">
+		<Unit filename="lvgl/src/misc/cache/lv_cache_lru_rb.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="lvgl/src/misc/cache/_lv_cache_lru_rb.h" />
+		<Unit filename="lvgl/src/misc/cache/lv_cache_lru_rb.h" />
 		<Unit filename="lvgl/src/misc/cache/lv_cache.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -1931,6 +1948,7 @@
 		</Unit>
 		<Unit filename="lvgl/src/osal/lv_freertos.h" />
 		<Unit filename="lvgl/src/osal/lv_os.h" />
+		<Unit filename="lvgl/src/osal/lv_os.c" />
 		<Unit filename="lvgl/src/osal/lv_os_none.c">
 			<Option compilerVar="CC" />
 		</Unit>
