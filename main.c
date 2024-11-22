@@ -37,10 +37,17 @@ static const wchar_t * title = L"LVGL port Windows CodeBlocks.      https://lvgl
 /**********************
  *   GLOBAL FUNCTIONS
  **********************/
+
+static void my_log_cb(lv_log_level_t level, const char * buf)
+{
+    printf("%s\n", buf);
+}
 int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR szCmdLine, int nCmdShow)
 {
     /*Initialize LVGL*/
     lv_init();
+
+    lv_log_register_print_cb(my_log_cb);
 
     /*Initialize the HAL for LVGL*/
     lv_display_t * display = lv_windows_create_display(title, 800, 480, 100, FALSE, FALSE);
