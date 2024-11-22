@@ -57,3 +57,4 @@ dkms.conf
 *.bak
 obj
 lvgl.layout
+arabic.bin

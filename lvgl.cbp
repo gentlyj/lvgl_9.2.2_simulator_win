@@ -80,6 +80,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/demos/benchmark/lv_demo_benchmark.h" />
+		<Unit filename="lvgl/demos/vtking/lv_demo_vtking.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/demos/vtking/lv_demo_vtking.h" />
 		<Unit filename="lvgl/demos/flex_layout/lv_demo_flex_layout.h" />
 		<Unit filename="lvgl/demos/flex_layout/lv_demo_flex_layout_ctrl_pad.c">
 			<Option compilerVar="CC" />
@@ -1597,6 +1601,12 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/src/font/lv_font_unscii_8.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/font/lv_font_arabic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/font/arabic24.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/src/font/lv_symbol_def.h" />
